@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p,ul{
+    margin: 0;
+    padding: 0;
+}
+/* header part  */
+header{
+    width: 100%;
+}
+.header_wrapper{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 34px 0;
+}
+.logo{
+    width: 20%;
+}
+.unsubscribe{
+    width: 10%;
+}
+.unsubscribe a{
+    text-decoration: none;
+    color: #97999b;
+    /* font-family: 'Roboto', sans-serif; */
+    font-weight: bold;
+}
+
+/* banner part  */
+.banner{
+    background-image: url(../images/pexels-luis-felipe-alburquerque-briganti-5191961.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.banner h1{
+    color: #ffffff;
+    font-size: 36px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+.banner h3{
+    color: #ffffff;
+    padding-bottom: 40px;
+    font-size: 20px;
+}
+.banner button{
+    border: 1px solid white;
+    background-color: #fb6e52;
+    border-radius: 4px;
+    padding: 20px 50px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;  
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+
+    transition: .4s all ease-in-out;
+
+}
+.banner button:hover{
+    background: #aa5c4d;
+}
+.banner button:hover i{
+    transition: .4s all ease-in-out;
+}
+.banner button:hover i{
+    margin-left: 2px;
+}
+
+/* feature section  */
+.feature_section{
+    padding: 70px 0;
+}
+.feature_wrapper{
+    width: 80%;
+    margin: auto;
+}
+.feature{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.feature_item{
+    width: 30%;
+}
+.feature_item h3{
+    padding-bottom: 20px;
+    text-transform: capitalize;
+    color: #292c34;
+    font-size: 20px;
+}
+.feature_item p{
+    color: #97999b;
+    font-size: large;
+}
+.icon{
+    height: 75px;
+    width: 75px;
+    background-color: #fb6e52;
+    color: #ffffff;
+    font-size: 35px;
+    line-height: 75px;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.quote{
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+}
+.quote p{
+    text-align: center;
+    color: #fb6e52;
+    font-size: 37px;
+    font-style:italic;
+} /* quote ends */ 
+
+
+
+/* inside section  */
+.inside{
+    width: 100%;
+}
+.container{
+    
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+.container .pic{
+    width: 33.33%;
+    padding: 0 20px;
+}
+
+.pic img{
+    width: 100%;
+    height: 250px;
+}
+.pic h4{
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Roboto', sans-serif;
+    color: #292c34;
+    font-size: 18px;
+    
+}
+.pic h5{
+    text-align: center;
+    padding-top: 10px ;
+    padding-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: #97999b;
+    font-size: 15px;
+}
+
+/* blog section  */
+.blog{
+    width: 100%;
+    background-color: #f9f9f9;
+}
+.blog h1{
+    text-align: center;
+    padding: 50px 0;
+    color: #292c34;
+}
+.blog_inside{
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+.part{
+    width: 50%;
+    padding: 0 20px;
+}
+.part img{
+    width: 100%;
+    height: 300px; 
+}
+.part h4{
+    padding: 20px 0;
+    color: #fb6e52;
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+    
+}
+.part p{
+    padding-bottom: 60px;  
+    color: #97999b;
+    font-family: 'Roboto', sans-serif;
+    font-weight: light;
+}
+
+/* footer section  */
+footer{
+    width: 100%;
+    background-color: #292c34;
+}
+footer .content{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.part_1{
+    display: flex;
+    align-items: center;
+}
+.part_1 span{
+    padding-left: 20px;
+    color: #797c82;
+}
+
+.part_2{
+    display: flex;
+    align-items: center;
+}
+.part_2 ul{
+    display: flex;
+    list-style: none;
+}
+.part_2 ul li{
+    padding-left: 60px;
+}
+.part_2 ul li a{
+    text-decoration: none;
+    color: white;
+    /* color: #626262; */
+}
+
